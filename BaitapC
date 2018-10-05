@@ -1,0 +1,20 @@
+1. Viết một chương trình để nhập vào hai chuỗi. Chương trình sẽ xác định liệu chuỗi thứ nhất có xuất hiện ở cuối chuỗi thứ hai không.
+2. Viết một chương trình nhập vào một mảng các số và hiển thị giá trị trung bình. Sử dụng hàm để tính giá trị trung bình.
+
+1. Viết chương trình C để nhập vào 5 tên và một chức danh. Chèn chức danh đó vào phần đầu mỗi tên trong mảng. Hiển thị các tên đã sửa đổi
+2. Viết một chương trình C nhập vào nhiệt độ trung bình hằng năm của 5 năm qua cho 5 thành phố. Hiển thị nhiệt độ lớn nhất và nhỏ nhất của mỗi thành phố. Sử dụng hàm để xác định các nhiệt độ lớn nhất và nhỏ nhất.
+
+1. Viết một chương trình C để lưu trữ các tên và điểm số của 5 sinh viên trong một mảng cấu trúc. Hãy sắp xếp mảng cấu trúc theo thứ tự điểm số giảm dần. Hiển thị 3 điểm số cao nhất.
+2. Viết một chương trình C để lưu trữ các tên và điểm số của 5 sinh viên trong một mảng cấu trúc. Hãy sắp xếp mảng cấu trúc theo thứ tự điểm số giảm dần. Hiển thị 3 điểm số cao nhất.
+
+1. Viết một chương trình để nhập dữ liệu vào một tập tin và in nó theo thứ tự ngược lại.
+2. Viết một chương trình để truyền dữ liệu từ một tập tin này sang tập tin khác, loại bỏ tất cả các nguyên âm (a, i , u, e, o). Loại bỏ các nguyên âm ở dạng chữ hoa lẫn chữ thường. Hiển thị nội dung của tập tin mới.
+
+1. Viết một chương trình C để lưu trữ 5 dộ dài trong một mảng cấu trúc. Mỗi độ dài phải bao gồm 3 thông tin về yards, feet và inches. Sắp xếp và hiển thị các độ dài.
+2. Viết một chương trình C để lưu trữ thông tin chi tiết của nhân viên trong một mảng cấu trúc. Thông tin của một nhân viên phải bao gồm mã nhân viên, tên, lương và ngày vào làm. Ngày vào làm phải được lưu trong một cấu trúc khác. Chương trình phải thực hiện các thao tác sau đây dựa trên sự lựa chọn trong menu các chức năng của chương trình:
+a. Tăng lương theo các luật sau
+	Salary Range		Percentage increase
+	<=2000				15%
+	>2000 and <=5000	10%
+	>5000				No increase
+b. Hiển thị thông tin chi tiết của các nhân viên đã làm việc trong công ty từ 10 năm trở lên.
