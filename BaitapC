@@ -18,3 +18,102 @@ a. Tăng lương theo các luật sau
 	>2000 and <=5000	10%
 	>5000				No increase
 b. Hiển thị thông tin chi tiết của các nhân viên đã làm việc trong công ty từ 10 năm trở lên.
+
+1. Viết một chương trình C để sao chép nội dung của một tập tin khác loại trừ các từ a, an, the.
+2. Viết một chương trình C để nhập vào hai chuỗi số. Lưu mỗi chuỗi ở hai tập tin riêng biệt. Sắp xếp chuỗi trong mỗi tập tin. Trộn 2 chuỗi vào một, sắp xếp và lưu lại chuỗi kết quả vào một tập tin mới. Hiển thị nội dung của tập tin mới.
+
+struct book_st {
+	int book_cd;
+	char book_nm[30];
+	char author[30];
+	int copies;
+}
+
+struct date_st {
+	int month;
+	int day;
+	int year;
+}
+
+struct tran_st
+{
+	int book_code;
+	char tran_type;
+	struct date_st tran_dt;
+}
+
+void main()
+{
+	int choice = 1, i;
+	char addflag;
+	struct book_st books[5];
+	struct tran_st trans[10];
+
+	while (choice != 4)
+	{
+		printf("\nSelect from Menu\n1.Add book names\n2.Record Issue/Return\n3.Sort transactions\n4.Exit\n\nEnter choice: ");
+		scanf("%d", &choice)
+
+		if (choice == 1)
+		{
+			addflag = 'y';
+
+			for (i = 0; i < 5 && addflag == 'y'; ++i)
+			{
+				books[i].book_cd = i + 1;
+				printf("\n\nBook code: %d\n\nBook name: ", i+1);
+				scanf("%s", books[i].book_nm);
+				printf("\nAuthor: ");
+				scanf("%s", books[i].author);
+				printf("\nNumber of copies: ");
+				scanf("%d", &books[i].copies);
+				printf("\n\nContinuew? (y/n): ");
+				scanf("%c", &addflag);
+
+			}
+		}
+		else if (choice == 2)
+		{
+			addflag = 'y';
+
+			for (i = 0; i < 10 && addflag == 'y'; ++i)
+			{
+				
+				printf("\n\nBook code: );
+				scanf("%d", &trans[i].book_code);
+				printf("\nAuthor: ");
+				scanf("%s", books[i].author);
+				printf("\nNumber of copies: ");
+				scanf("%d", &books[i].copies);
+				printf("\n\nContinuew? (y/n): ");
+				scanf("%c", &addflag);
+
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
